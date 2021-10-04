@@ -27,20 +27,17 @@
   .row{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
   .row img{
-    justify-content: center;
+    
   }
   .row, h1{
     justify-content: center;
   }
-  .row, .left{
-    flex-direction: column;
-    width: 100%;
-  }
-  .row, .right{
   
-  }
 }
 
 /* BLOCCO STEPS */
